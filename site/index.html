@@ -1,45 +1,13 @@
 <!DOCTYPE html>
 <html>
 <head lang="en">
-    <script type="text/javascript" src="src/jquery-2.1.4.min.js"></script>
-    <script language = "javascript">function validate(text1,text2,text3,text4)
-    {
-        if (text1==text2 && text3==text4)
-            load('success.htm');
-        else
-        {
-            load('failure.htm');
-        }
-    }
-    function load(url)
-    {
-        location.href=url;
-    }
-    </script>
     <meta charset="UTF-8">
     <title></title>
     <link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 <body>
-    <div id="header">
-        <h1></h1>
-        <div id="login_bars"><form>
-            <p>ENTER USER NAME :
-                <input type="text" name="text2">
-            </p>
-            <p> ENTER PASSWORD :
-                <input type="password" name="text1">
-                <input type="button" value="Check In" name="Submit" onclick=validate(text2.value,"free",text1.value,"javascript") >
-            </p>
-
-        </form>
-
-                </div>
-    </div>
-    <div id="twitter_feed">
-        <h1></h1>
-    </div>
-
-
+   <div  id="overhead_bar">
+       <h1></h1>
+   </div>
 </body>
 </html>

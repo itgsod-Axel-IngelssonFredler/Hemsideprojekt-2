@@ -1,31 +1,6 @@
-body {
-  background-color: green;
-  margin: 0px;
-  padding: 0px;
-}
-
-#twitter_feed {
-    background-color: blue;
-    height: 1000px;
-    width: 250px;
-    margin:0px;
-    padding: 0px;
-    float: right;
-}
-
-#header {
-    background-color: orange;
-    height: 150px;
+#overhead_bar {
+    background-color: green;
     width: 100%;
+    height: 10%;
     margin: 0px;
-    padding: 0px;
-    float: right;
-}
-
-#login_bars {
-    float: right;
-}
-
-#sidebar {
-    background-color: blue;
 }
