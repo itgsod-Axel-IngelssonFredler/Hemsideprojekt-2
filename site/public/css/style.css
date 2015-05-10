@@ -1,5 +1,5 @@
 body {
-    background-color:;
+    background-color:blue;
     margin: 0px;
 }
 #overhead_bar {
@@ -20,8 +20,19 @@ body {
     padding: 0;
 }
 
+#skol_namn {
+    margin: 0;
+    padding: 0;
+    float: left;
+    margin-top: 1%;
+    margin-left: 1%;
+    font-style: inherit;
+    color: #ffffff;
+    -webkit-user-select: none;
+}
+
 #login_container {
-    background-color: grey;
+    background-color: orange;
     height: 100%;
     width: 30%;
     float: right;
@@ -30,7 +41,10 @@ body {
 
 #checkbox_kom_ihag_mig {
     font-size: 25px;
-    margin-top: 18%;
+    margin-top: 5%;
+    margin-bottom: 0;
+    display: inline-block;
+    margin-left: 4%;
 }
 
 .login_bar {
@@ -39,6 +53,10 @@ body {
     margin-left: 10%;
     margin-top: 5%;
     float: left;
+    border-radius: 2px 2px 2px 2px;
+    -moz-border-radius: 2px 2px 2px 2px;
+    -webkit-border-radius: 2px 2px 2px 2px;
+    border: 2px solid #000000;
 }
 
 #login_button {
@@ -54,10 +72,12 @@ body {
     font-family: Arial;
     color: #ffffff;
     font-size: 20px;
-    padding: 10px 20px 10px 20px;
+    padding: 5.5px 20px 5.5px 20px;
     text-decoration: none;
-    margin-bottom: 20%;
+    margin-left:4%;
+    margin-top: 4.5%;
     float: left;
+    text-align: center;
 }
 
 #login_button:hover {
@@ -68,4 +88,8 @@ body {
     background-image: -o-linear-gradient(top, #0be300, #0ce800);
     background-image: linear-gradient(to bottom, #0be300, #0ce800);
     text-decoration: none;
+}
+
+#twitter_feed {
+    height: 100%;
 }
