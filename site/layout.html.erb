@@ -5,7 +5,16 @@
     <title>Penus</title>
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <script type="text/javascript" src="js/jquery-1.11.3.min.js"></script>
-    <script type="text/javascript" src="js/jquery.sidebar.js"></script>
+    <script type="text/javascript" src="js/jquery.sidebar.js">$("ul#sidebar_menu").sidebar({
+        position:"left",
+        callback:{
+            item : {
+                enter : function(){
+                    $(this).find("a").animate({color:"red"}, 250);
+                },
+                leave : function(){
+                    $(this).find("a").animate({color:"white"}, 250);
+                }</script>
     <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
 
 </head>
