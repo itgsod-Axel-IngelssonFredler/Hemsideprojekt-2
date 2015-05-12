@@ -7,22 +7,9 @@
     <script type="text/javascript" src="js/jquery-1.11.3.min.js"></script>
     <script type="text/javascript" src="js/jquery.slidepanel.js"></script>
     <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
-    <script>
-        $(function() {
-            $('a[href*=#]:not([href=#])').click(function() {
-                if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
-                    var target = $(this.hash);
-                    target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
-                    if (target.length) {
-                        $('html,body').animate({
-                            scrollTop: target.offset().top
-                        }, 1000);
-                        return false;
-                    }
-                }
-            });
-        });
-    </script>
+    <script type="text/javascript" src="js/slider-master/jssor.js"></script>
+    <script type="text/javascript" src="js/slider-master/jssor.slider.js"></script>
+
 </head>
 <body>
 
@@ -49,6 +36,8 @@
        <a class="sidebar_button" href="public/index.html">Home</a>
      </div>
    </div>
+
+
 
    <div id="twitter_feed">
      <a class="twitter-timeline" href="https://twitter.com/axel_if" data-widget-id="597464044031897602">Tweets by @axel_if</a>

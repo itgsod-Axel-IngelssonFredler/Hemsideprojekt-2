@@ -155,3 +155,14 @@ body {
     float: left;
 }
 
+#slider1_container {
+    margin-top: 2.5%;
+    margin-left: 25px;
+    margin-bottom: 0%;
+    float:left;
+    border-radius: 1px 1px 1px 1px;
+    -moz-border-radius: 1px 1px 1px 1px;
+    -webkit-border-radius: 1px 1px 1px 1px;
+    border: 2px solid black;
+}
+
