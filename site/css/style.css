@@ -3,10 +3,45 @@ body {
     margin: 0px;
 }
 
+
 #sidebar_menu {
-    background-color: green;
-    width: 30%;
-    height: 40%;
+    background-color:white;
+    width: 180px;
+    height: 100%;
+    float:left;
+    margin: 0;
+
+}
+
+.sidebar_button {
+    float: left;
+    margin-top:2px;
+    width: 100px;
+    background: #00b815;
+    background-image: -webkit-linear-gradient(top, #00b815, #078219);
+    background-image: -moz-linear-gradient(top, #00b815, #078219);
+    background-image: -ms-linear-gradient(top, #00b815, #078219);
+    background-image: -o-linear-gradient(top, #00b815, #078219);
+    background-image: linear-gradient(to bottom, #00b815, #078219);
+    -webkit-border-radius: 8;
+    -moz-border-radius: 8;
+    border-radius: 1px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 25.5px 40px 25.5px 40px;
+    text-decoration: none;
+    text-align: center;
+}
+
+.sidebar_button:hover {
+    background: #0be300;
+    background-image: -webkit-linear-gradient(top, #0be300, #0ce800);
+    background-image: -moz-linear-gradient(top, #0be300, #0ce800);
+    background-image: -ms-linear-gradient(top, #0be300, #0ce800);
+    background-image: -o-linear-gradient(top, #0be300, #0ce800);
+    background-image: linear-gradient(to bottom, #0be300, #0ce800);
+    text-decoration: none;
 }
 #overhead_bar {
     background-color: orange;
@@ -98,5 +133,25 @@ body {
 
 #twitter_feed {
     height: 100%;
+}
+
+#larar_information {
+    float: left;
+    margin-left: 225px;
+    color: white;
+}
+
+
+#slide-1 {
+    width:400px;
+    height: 100%;
+    background-color: reD;
+    float: left;
+}
+#slide-2 {
+    width: 400px;
+    height: 100%;
+    background-color: green;
+    float: left;
 }
 
