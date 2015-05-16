@@ -1,6 +1,47 @@
 body {
-    background-color:blue;
+    background-color:#4652db;
     margin: 0px;
+}
+
+.slide-out-div {
+float: left;
+}
+
+.handle {
+    float: left;
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+}
+
+a.sansserif {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1.sansserif {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.default3, .skola, .flower-197197_1280{
+    background: url(site/img/sprites.png) no-repeat;
+}
+
+.default3 {
+    background-position: 0 0;
+    width: 336px;
+    height: 336px;
+}
+
+.skola {
+    background-position: 0 -339px ;
+    width: 800px;
+    height: 600px;
+}
+
+.flower-197197_1280 {
+    background-position: 0 -940px ;
+    width: 1280px;
+    height: 878px;
 }
 
 
@@ -13,7 +54,7 @@ body {
 
 }
 
-.sidebar_button {
+a.sidebar_button {
     float: left;
     margin-top:2px;
     width: 100px;
@@ -26,10 +67,11 @@ body {
     -webkit-border-radius: 8;
     -moz-border-radius: 8;
     border-radius: 1px;
-    font-family: Arial;
+    font-family: Arial, sans-serif;
     color: #ffffff;
     font-size: 20px;
-    padding: 25.5px 40px 25.5px 40px;
+    font-weight:normal ;
+    padding: 30px 40px 30px 40px;
     text-decoration: none;
     text-align: center;
 }
@@ -44,7 +86,7 @@ body {
     text-decoration: none;
 }
 #overhead_bar {
-    background-color: orange;
+    background-color: #e1972c;
     width: 100%;
     height:125px;
     margin: 0;
@@ -53,9 +95,8 @@ body {
 }
 
 #twitter_feed {
-    background-color: grey;
     width: 250px;
-    height: 800px;
+    height: 100px;
     float: right;
     margin: 0;
     padding: 0;
@@ -73,7 +114,6 @@ body {
 }
 
 #login_container {
-    background-color: orange;
     height: 100%;
     width: 30%;
     float: right;
@@ -86,6 +126,8 @@ body {
     margin-bottom: 0;
     display: inline-block;
     margin-left: 4%;
+    font-family: Helvetica, sans-serif;
+    font-style: inherit;
 }
 
 .login_bar {
@@ -110,7 +152,6 @@ body {
     -webkit-border-radius: 8;
     -moz-border-radius: 8;
     border-radius: 8px;
-    font-family: Arial;
     color: #ffffff;
     font-size: 20px;
     padding: 5.5px 20px 5.5px 20px;
@@ -119,6 +160,7 @@ body {
     margin-top: 4.5%;
     float: left;
     text-align: center;
+    font-family: helvetica, sans-serif;
 }
 
 #login_button:hover {
@@ -131,38 +173,40 @@ body {
     text-decoration: none;
 }
 
-#twitter_feed {
-    height: 100%;
-}
 
-#larar_information {
+#larar_information_rubrik {
     float: left;
     margin-left: 225px;
     color: white;
 }
 
-
-#slide-1 {
-    width:400px;
-    height: 100%;
-    background-color: reD;
+#larar_information {
     float: left;
+    margin-left: 200px;
 }
-#slide-2 {
-    width: 400px;
-    height: 100%;
-    background-color: green;
+
+#nyheter_rubrik {
+    margin-left: 360px;
     float: left;
 }
 
 #slider1_container {
-    margin-top: 2.5%;
-    margin-left: 25px;
-    margin-bottom: 0%;
-    float:left;
+    margin-top: 1%;
+    margin-right: 275px;
+    margin-bottom: 0;
+    float: right;
     border-radius: 1px 1px 1px 1px;
     -moz-border-radius: 1px 1px 1px 1px;
     -webkit-border-radius: 1px 1px 1px 1px;
     border: 2px solid black;
+    background-image: .;
+}
+
+#text_ruta {
+    float: left;
+    width: 200px;
+    height: 400px;
+    background-color: blue;
+    margin-top: 500px;
 }
 

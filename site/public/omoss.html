@@ -5,11 +5,27 @@
     <title>Penus</title>
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <script type="text/javascript" src="js/jquery-1.11.3.min.js"></script>
-    <script type="text/javascript" src="js/jquery.slidepanel.js"></script>
     <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
     <script type="text/javascript" src="js/slider-master/jssor.js"></script>
     <script type="text/javascript" src="js/slider-master/jssor.slider.js"></script>
+    <script type="text/javascript" src="js/jquery.tabSlideOut.v1.3.js"></script>
+    <script type="text/javascript">
+        $(function(){
+            $('.slide-out-div').tabSlideOut({
+                tabHandle: '.handle',                     //class of the element that will become your tab
+                pathToTabImage: 'img/contact_tab.gif', //path to the image for the tab //Optionally can be set using css
+                imageHeight: '122px',                     //height of tab image           //Optionally can be set using css
+                imageWidth: '40px',                       //width of tab image            //Optionally can be set using css
+                tabLocation: 'left',                      //side of screen where tab lives, top, right, bottom, or left
+                speed: 300,                               //speed of animation
+                action: 'click',                          //options: 'click' or 'hover', action to trigger animation
+                topPos: '125px',                          //position from the top/ use if tabLocation is left or right
+                leftPos: '20px',                          //position from left/ use if tabLocation is bottom or top
+                fixedPosition: true                      //options: true makes it stick(fixed position) on scroll
+            });
 
+        })
+  </script>
 </head>
 <body>
 
@@ -22,31 +38,30 @@
           <a id="login_button">Logga in</a>
         </div>
    </div>
-
-   </div>
-   <div id="sidebar">
-     <div id="sidebar_menu">
-       <a class="sidebar_button" href="public/index.html">Home</a>
-       <a class="sidebar_button" href="public/index.html">Home</a>
-       <a class="sidebar_button" href="public/index.html">Home</a>
-       <a class="sidebar_button" href="public/index.html">Home</a>
-       <a class="sidebar_button" href="public/index.html">Home</a>
-       <a class="sidebar_button" href="public/index.html">Home</a>
-       <a class="sidebar_button" href="public/omoss.html">Om Oss</a>
-       <a class="sidebar_button" href="public/index.html">Home</a>
-     </div>
-   </div>
-
-
-
-   <div id="twitter_feed">
+    <div class="slide-out-div" >
+      <div id="sidebar_menu">
+        <a class="handle"></a>
+        <a class="sidebar_button" href="public/nyheter.html">Nyheter</a>
+        <a class="sidebar_button" href="public/skolan.html">Skolan</a>
+        <a class="sidebar_button" href="public/index.html">Schema</a>
+        <a class="sidebar_button" href="public/index.html">Matsedel</a>
+        <a class="sidebar_button" href="public/index.html">Klasser</a>
+        <a class="sidebar_button" href="public/index.html">Galleri</a>
+        <a class="sidebar_button" href="public/omoss.html">Om Oss</a>
+      </div>
+    </div>
+    <div id="twitter_feed">
      <a class="twitter-timeline" href="https://twitter.com/axel_if" data-widget-id="597464044031897602">Tweets by @axel_if</a>
    </div>
 
-   
 
 
-<h1 id="larar_information">Information om våra lärare</h1>
+
+   <h1 id="larar_information_rubrik">Information om våra lärare</h1>
+<div id="larar_information">
+    <div class="default3"></div>
+</div>
 
 </body>
+
 </html>
