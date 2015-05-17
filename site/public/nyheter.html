@@ -6,15 +6,15 @@
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <script type="text/javascript" src="js/jquery-1.11.3.min.js"></script>
     <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
-    <script type="text/javascript" src="js/slider-master/jssor.js"></script>
-    <script type="text/javascript" src="js/slider-master/jssor.slider.js"></script>
+    <script type="text/javascript" src="js/image_slider/jssor.js"></script>
+    <script type="text/javascript" src="js/image_slider/jssor.slider.js"></script>
     <script type="text/javascript" src="js/jquery.tabSlideOut.v1.3.js"></script>
     <script type="text/javascript">
         $(function(){
             $('.slide-out-div').tabSlideOut({
                 tabHandle: '.handle',                     //class of the element that will become your tab
-                pathToTabImage: 'img/contact_tab.gif', //path to the image for the tab //Optionally can be set using css
-                imageHeight: '122px',                     //height of tab image           //Optionally can be set using css
+                pathToTabImage: 'img/Knapp.png', //path to the image for the tab //Optionally can be set using css
+                imageHeight: '121px',                     //height of tab image           //Optionally can be set using css
                 imageWidth: '40px',                       //width of tab image            //Optionally can be set using css
                 tabLocation: 'left',                      //side of screen where tab lives, top, right, bottom, or left
                 speed: 300,                               //speed of animation
@@ -28,7 +28,6 @@
   </script>
 </head>
 <body>
-
     <div id="overhead_bar">
         <h1 id="skol_namn">Kreativt-Förtryckande Skolan</h1>
         <div id="login_container">
@@ -41,23 +40,17 @@
     <div class="slide-out-div" >
       <div id="sidebar_menu">
         <a class="handle"></a>
-        <a class="sidebar_button" href="public/nyheter.html">Nyheter</a>
-        <a class="sidebar_button" href="public/skolan.html">Skolan</a>
-        <a class="sidebar_button" href="public/index.html">Schema</a>
-        <a class="sidebar_button" href="public/index.html">Matsedel</a>
-        <a class="sidebar_button" href="public/index.html">Klasser</a>
-        <a class="sidebar_button" href="public/index.html">Galleri</a>
-        <a class="sidebar_button" href="public/omoss.html">Om Oss</a>
+        <a class="sidebar_button"  href="nyheter.html">Nyheter</a>
+        <a class="sidebar_button" href="skolan.html">Skolan</a>
+        <a class="sidebar_button" href="scheme.html">Schema</a>
+        <a class="sidebar_button" href="matsedel.html">Matsedel</a>
+        <a class="sidebar_button" href="omoss.html">Om Oss</a>
       </div>
     </div>
     <div id="twitter_feed">
      <a class="twitter-timeline" href="https://twitter.com/axel_if" data-widget-id="597464044031897602">Tweets by @axel_if</a>
    </div>
-
-
-
-
-   <script>
+    <script>
     jQuery(document).ready(function ($) {
         var options = {
             $AutoPlay: true,                                   //[Optional] Whether to auto play, to enable slideshow, this option must be set to true, default value is false
@@ -72,16 +65,20 @@
   <!-- Slides Container -->
   <div u="slides" style="cursor: move; position: absolute; left: 0px; top: 0px; width: 800px; height: 400px;
           overflow: hidden;">
-    <div id="slider_image1" class="flower-197197_1280"></div>
-    <div><img u="image" src="img/background.jpg" /></div>
-    <div><img u="image" src="img/background.jpg" /></div>
+    <div class="flower-197197_1280"></div>
+    <div class="flower-197197_1280"></div>
+    <div class="flower-197197_1280"></div>
   </div>
   <a style="display: none" href="http://www.jssor.com">Image Slider</a>
 </div>
+<div id="text_ruta_nyheter">
+  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse accumsan leo ac arcu ornare congue. Suspendisse vitae sapien eget leo interdum aliquet. Curabitur sollicitudin sem non ipsum scelerisque hendrerit. Pellentesque elementum metus quis nibh sodales posuere. Aenean iaculis tempus erat eget ornare. Duis arcu libero, cursus id porta in, finibus quis nibh. Proin euismod placerat convallis. Integer tristique convallis eros eu tristique. Sed congue nibh nec justo blandit iaculis. Etiam ultricies et dolor non blandit.
 
-<div id="text_ruta">
-  <h1></h1>
+    Praesent vitae consectetur leo, sed cursus erat. Donec lacus eros, gravida in massa a, blandit varius sem. Suspendisse potenti. Vestibulum sed odio ex. Curabitur sed lorem nec massa pulvinar consectetur. Nullam luctus urna a arcu mollis tincidunt. Praesent lacinia tincidunt ultrices. Praesent luctus libero et felis vehicula, in porttitor metus commodo. Vivamus ante dui, feugiat nec tincidunt dictum, tristique quis libero. Donec odio diam, laoreet nec neque vitae, condimentum tempor nibh. Integer at dapibus orci. In at vehicula mi. Pellentesque id vehicula urna. Mauris a lectus in ipsum rhoncus laoreet.
+
 </div>
+
+
 </body>
 
 </html>

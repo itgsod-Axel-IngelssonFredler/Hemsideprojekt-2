@@ -22,26 +22,14 @@ h1.sansserif {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-.default3, .skola, .flower-197197_1280{
-    background: url(site/img/sprites.png) no-repeat;
+.flower-197197_1280, .skola, .larar_bild{
+    background: url(../img/sprites.png) no-repeat;
 }
 
-.default3 {
+.flower-197197_1280{
     background-position: 0 0;
-    width: 336px;
-    height: 336px;
-}
-
-.skola {
-    background-position: 0 -339px ;
     width: 800px;
-    height: 600px;
-}
-
-.flower-197197_1280 {
-    background-position: 0 -940px ;
-    width: 1280px;
-    height: 878px;
+    height: 400px;
 }
 
 
@@ -176,18 +164,39 @@ a.sidebar_button {
 
 #larar_information_rubrik {
     float: left;
-    margin-left: 225px;
+    margin-left: 370px;
     color: white;
 }
 
 #larar_information {
     float: left;
     margin-left: 200px;
+    width: 725px;
+    height: 550px;
+    background-color: rgba(255, 249, 251, 0.65);
+}
+.larar_bild {
+    background-position: -303px -404px ;
+    width: 125px;
+    height: 170px;
+    float: left;
+    margin-left: 155px;
+    margin-top: 25px;
+}
+
+.larar_ruta {
+    float: left;
+    width: 170px;
+    height: 50px;
+    margin-left: 125px;
+    margin-top: 25px;
+
 }
 
 #nyheter_rubrik {
-    margin-left: 360px;
+    margin-left: 515px;
     float: left;
+    color: white;
 }
 
 #slider1_container {
@@ -199,7 +208,15 @@ a.sidebar_button {
     -moz-border-radius: 1px 1px 1px 1px;
     -webkit-border-radius: 1px 1px 1px 1px;
     border: 2px solid black;
-    background-image: .;
+}
+
+#text_ruta_nyheter {
+    width: 804px;
+    height: 200px;
+    background-color: rgba(255, 249, 251, 0.65);
+    float: left;
+    margin-left: 201px;
+    margin-top: 25px;
 }
 
 #text_ruta {
@@ -208,5 +225,82 @@ a.sidebar_button {
     height: 400px;
     background-color: blue;
     margin-top: 500px;
+}
+
+#skolan_rubrik {
+    color: #ffffff;
+    float: left;
+    margin-left: 430px;
+    margin-bottom: 0;
+}
+
+.skola {
+    background-position: 0 -403px ;
+    width: 300px;
+    height: 220px;
+    margin-right: 50px;
+    margin-top: 50px;
+    margin-bottom: 0;
+    float: right;
+}
+
+#skola_information {
+    background-color: grey;
+    width: 300px;
+    height: 475px;
+    float: left;
+    margin-left: 300px;
+    margin-top: 50px;
+}
+
+#skola_information_text {
+    margin-left: 10px;
+}
+
+#skola_information_rubrik {
+    margin-left: 100px;
+}
+
+#schema_rubrik {
+    float: left;
+    color: white;
+    margin-left: 550px;
+}
+
+#schema {
+    width: 800px;
+    height: 400px;
+    float: right;
+    margin-right: 50px;
+}
+
+
+#vecka_info {
+    float: left;
+    margin-left: 300px;
+    margin-top: 28px;
+}
+
+#matsedel_rubrik1 {
+    float: right;
+    margin-right: 350px;
+    color: white;
+}
+
+.line {
+    background-color: grey;
+    height: 1px;
+    width: 700px;
+    float: left;
+    margin-left: 250px;
+}
+
+.lunch_info {
+    float: left;
+    margin-left: 300px;
+}
+
+#mandag_lunch {
+    color: white;
 }
 
